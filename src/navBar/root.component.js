@@ -18,6 +18,11 @@ const NavBar = () => (
             React
           </a>
         </li>
+        <li>
+          <a href="/vue" onClick={navigateToUrl}>
+            Vue
+          </a>
+        </li>
       </ul>
     </div>
   </nav>

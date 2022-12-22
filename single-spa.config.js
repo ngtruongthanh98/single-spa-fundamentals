@@ -15,6 +15,12 @@ registerApplication(
 );
 // registerApplication('angularJS', () => import('./src/angularJS/angularJS.app'), pathPrefix('/angularJS'));
 
+registerApplication(
+  "vue",
+  () => import("./src/vue/vue.app.js"),
+  pathPrefix("/vue")
+);
+
 start();
 
 function pathPrefix(prefix) {
